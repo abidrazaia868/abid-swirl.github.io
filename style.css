@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: grey;
+}
+h1{
+    color: brown;
+
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: yellow;
+}
+ul{
+    display: flex;
+    margin-left: 50px;
+    gap: 50px;
+    font-size: 26px;
+    font-style: italic;
+}
+audio{
+    background: red;
+    
+}
+
+img{
+    border-radius: 10px;
+
+}
+img:hover{
+    scale: 1.5;
+}
+p{
+    font-size: 26px;
+    color: blue;
+}
+span{
+    font-size: 24px;
+    color: red;
+    text-align: center;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    background: blue;
+}
+
+footer a{
+    gap: 50px;
+    font-size: 23px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background: red;
+    color: white;
+    transform: rotate(360deg);
+}
